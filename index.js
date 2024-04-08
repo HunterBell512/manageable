@@ -1,6 +1,5 @@
 const inquirer = require('inquirer');
 const db = require('./config/connection');
-const exit = false;
 
 const init = async () => {
     await inquirer.prompt(
